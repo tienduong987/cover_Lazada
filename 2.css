@@ -1,0 +1,489 @@
+html,body{
+	width: 100%;
+	height: 100%;
+}
+.all{
+	background-color: #8080803d;
+}
+.fixtop{
+	overflow: hidden;
+}
+.header1{
+	width: 100%;
+	height: 40px;
+	background:#8080803d;
+	margin: auto;
+}
+.alignCenter{
+	display: flex;
+	justify-content: center;
+}
+.header1 ul{
+	margin: 0px;
+	padding: 0px;
+}
+.header1 ul>li{
+	list-style: none;
+}
+.header1 ul>li>a{
+	text-decoration: none;
+	padding: 10px;
+	float: left;
+	color:#9e9e9e; 
+	transition: 0.4s;
+	text-transform: uppercase;
+	font-size: 13px;
+
+}
+.header1	ul>li>a:hover{
+	color: red;
+	text-decoration: none;
+}
+.header1 .quantrong{
+	color: #0f1568;
+}
+.header2{
+	height: 77px;
+	background-color: white;
+}
+.header2 .logo{
+	text-align: center;
+	margin-top: 14px;
+}
+.header2 .cam{
+	background: #f57224;
+	color: white;
+	margin-left: -8px !important;
+}
+.header2 .searchall .thanhtimkiem{
+	width: 580px;
+	height: 50px;
+	display: flex !important;
+	justify-content: center !important;
+	background: #8080802b;
+}
+.header2 .rohang img{
+	height: 100%;
+	width: 40px;
+	margin: 7px;
+	float: left;
+	
+}
+.header2 .khuyenmai img{
+	height: 50px;
+	margin-left: 20px;
+	
+}
+.header3{
+	margin-top: 20px;
+	position: relative;
+}
+.header3 .menu{
+	margin-left: 200px;
+	width: 240px;
+	border: solid 1px #ccc;
+	position: absolute;
+	z-index: 3;
+	background: white;
+}
+.menu .menu-list{
+	margin: 0px;
+	padding: 0px;
+}
+.menu .menu-item {
+	list-style: none;
+	position:relative;
+}
+.menu-item:first-child{
+	margin-top:5px;
+}
+.menu-link{
+	text-decoration: none;
+	display: block;
+    padding: 3px 8px;
+    color: black;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+i.menu-icon{
+	display: none;
+}
+.menu-link:hover{
+	color:#f36d00;	
+}
+.menu-link:hover .menu-icon{
+	display: block;
+}
+.sub__menu-list{
+	position:absolute;
+	top:-5px;
+	left:239px;
+	width: 100%;
+	height: 325px;
+	z-index:2;
+	padding-left: 0px;	
+	display: none;
+}
+.menu-item:hover .sub__menu-list{
+	display: block;
+}
+.sub__menu-item{
+	list-style: none;
+	background-color: white;
+	
+}
+.sub__menu-link{
+	text-decoration: none;
+	display:block;
+	color:black;
+	padding: 3px 8px;
+	font-size: 14px;
+}
+.sub__menu-link:hover{
+	color:#f36d00;
+}
+
+
+
+.slide_carousel{
+	margin-left: 440px;
+    position: absolute;
+    z-index: 1;
+    width: 909px;
+    float: right;
+    margin-top: -330px;
+}
+.header3 .nen{
+	background-color:#00ac70;
+	height: 325px;
+	width: 210px;
+	display: inline-block;
+	padding: 0px;
+	margin: 0px;
+}
+.content{
+	width:100% ;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.conntent .anhnencontent{
+	position: absolute;
+	z-index: 1;
+}
+.content .combo{
+	position: absolute;
+	z-index: 2;
+	top: 25%;
+	left: 10%;
+}
+.one_combo {
+	overflow: hidden;
+	 border: solid 1px white;
+	 border-radius: 20px;
+	 background-color: white;
+	 height: 40px;
+	 padding-top: 5px;
+	 width: 269px;
+	 margin-right: 15px;
+}
+.one_combo img{
+	width: 30px;
+}
+.one_combo span{
+	font-size: 18px;
+}
+.lazMall:hover{
+	color: red;
+}
+.magiamgia:hover{
+	color: yellow;
+}
+.voucher:hover{
+	color: blue;
+}
+.lazgbal:hover{
+	color: violet;
+}
+.card-title{
+	font-size: 12px;
+}
+.card-text1{
+	font-size: 12px;
+	color: #f57224;
+}
+.card-text2{
+	font-size: 10px;
+	color: #9e9e9e;
+}
+.content .dellchopnhoang{
+	overflow: hidden;
+	position: absolute;
+	z-index: 3;
+	top: 35%;
+	left: 8%;
+	height: 450px;
+}
+.content .nenkhac{
+	background-color: white;
+}
+.dellchopnhoang .nenkhac .muasanpham{
+	color: #f57224;
+	border: solid 1px #f57224;
+	border-radius: 5px;
+	width: 270px;
+}
+
+.nenkhac .chopnhoangduoi .dobong:hover{
+	box-shadow: 1px 2px 4px #ccc;
+}
+.phobien{
+	height: 300px;
+	
+}
+.phobien .phobienlon{
+	position: relative;
+	width:20%;
+	height: 100%;
+	float: left;
+}
+.phobien .phobienlon:hover{
+	box-shadow: 1px 1px 4px #ccc;
+}
+.phobien .phobienlon img{
+	width: 100%;
+	height:221px;
+}
+.phobien .phobienlon .chinhmau{
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	opacity: 0.09;
+	background-color: blue;
+	z-index: 10;
+}
+.phobien .phobienlon .chu{
+	display: inline-block;
+	text-align: center;
+	margin-left: 41px;
+
+}
+.phobien .phobienlon .chu h3{
+	text-align: center;
+	font-size: 17px;
+}
+.phobien .phobienlon .chu h6{
+	text-align: center;
+	font-size: 13px; 
+	color: gray;
+}
+.phobien .phobiennho{
+	float: left;
+	position: relative;
+	width: 19%;
+	height: 130px;
+	margin-bottom: 14px;
+	margin-left: 11px;
+}
+.phobien .phobiennho:hover{
+	box-shadow: 1px 1px 4px #ccc;
+	
+}
+.phobien .phobiennho .chinhmaucam{
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 130px;
+	top: 0;
+	left: 0;
+	z-index: 9;
+	opacity: 0.09;
+	background-color: #d27009;
+}
+.phobien .phobiennho img{
+	margin: -18px -1px 7px 10px;
+}
+.phobien .phobiennho .chunho{
+	display: inline-block;
+	margin: 37px 0px 0px 6px;
+}
+.phobien .phobiennho .chunho h3{
+	text-align: center;
+	font-size: 17px;
+}
+.phobien .phobiennho .chunho h6{
+	text-align: center;
+	font-size: 13px;
+}
+.phantu1{
+	width: 25%;
+	background-color: #ffffff00;
+	float: left;
+	border: solid 1px  #ccc;
+	padding: 10px;
+}
+.phantu1:hover{
+	box-shadow: 1px 4px 4px #ccc;
+	
+}
+.phantu1 .title{
+	text-align: center;
+	font-size: 13px;
+
+}
+.phantu1 .point{
+	text-align: center;
+	color: #757575;
+	font-size: 12px;
+}
+.bosuutap{
+	margin-top: 10px;
+	height: 272px !important;
+	background: white;
+}
+.phantu1  .product .anhsp{
+	width: 67px;
+	height: 67px;
+	float: left;
+}
+.product {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.show_lazmail{
+	margin-top: 16px !important;
+}
+
+.logo2 {
+    position: relative;
+    width: 15px;
+    height: 42px;
+    top: -40px;
+    right: -36px;
+}
+
+.logo2 img {
+    width: 61px;
+    border: solid 5px white;
+}
+.card-title {
+    font-size: 16px;
+    position: relative;
+    top: -15px;
+    right: 0;
+}
+h6.card-text {
+    position: relative;
+    top: -13px;
+    right: 0;
+    font-size: 13px;
+    color: #9e9e9e;
+}
+.card:hover{
+	box-shadow: 1px 3px 4px  #ccc;
+}
+.khunganh{
+	width: 165px;
+	height: 165px;
+	background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.5) 100%);
+}
+.layer_nganhhang{
+	width: 12.5%;
+	border: solid 1px #ccc;
+	height: 126px;
+	float: left;
+	background-color: white;
+}
+.anh_nganhhang img {
+    position: relative;
+    top: 0px;
+    right: -20px;
+    padding: 9px;
+    width: 80px;
+    height: 80px;
+}
+.layer_nganhhang h6 {
+    text-align: center;
+    font-size: 12px !important;
+    margin-top: 5px;
+    padding-bottom: 10px;
+   
+}
+.layer_nganhhang:hover {
+    box-shadow: 1px 3px 4px  #ccc;
+}
+
+.danhmucnganhhang{
+	height: 300px;
+	margin-top: 16px;
+}
+.dacbiet{
+	padding-left: 0px!important;
+}
+.kopaddingphai{
+	padding-right: 0px!important;
+}
+.danhriengchoban{
+	margin-top: 15px;
+}
+.nutxemthem{
+	width: 300px;
+	margin-left: 422px;
+	margin-top: 20px;
+}
+.tfooter{
+	height: 300px;
+}
+.chinh p{
+	margin: 0px !important;
+	padding: 0px !important;
+	color: #0f138a;
+}
+.tfooter-right .iconlaz{
+	display: inline-block;
+	float: left;
+}
+.chu_right {
+    margin-left: 16px;
+    display: block;
+    float: left;
+    color: #0f138a;
+}
+.chung{
+	background-image: url('https://laz-img-cdn.alicdn.com/tfs/TB1dFECEMTqK1RjSZPhXXXfOFXa-986-931.png');
+}
+.icon_right1{
+	background-position: -190px -124px;
+	width: 126px;
+	height: 42px;
+	margin: 1px 0 0 20px;
+	float: left;	
+}
+.icon_right2{
+	background-position: -557px -374px;
+	width: 152px;
+	height: 43px;
+	float: left;
+}
+.chuaphanten{
+	height: 56px;
+}
+.cacchu{
+	font-size: 14px;
+	color: #0f138a;
+}
+.cover_tfooter{
+	margin-top: 50px;
+}
+form.searchall {
+    margin-top: 13px;
+}
+.chua_right_header3 {
+    margin-top: 14px;
+    margin-left: -30px;
+}
